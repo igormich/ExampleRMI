@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class Server {
 
-    static class MessengerImpl implements Messenger, Serializable {
+    static class MessengerImpl implements Messenger {
 
         private Map<User, MessengerCallback> callbacks = new HashMap<>();
 
